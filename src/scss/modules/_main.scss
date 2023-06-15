@@ -1,0 +1,72 @@
+.accordion-header {
+  cursor: pointer;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-item.active .accordion-header {
+  background-color: #ddd;
+}
+
+.accordion-item.active .accordion-content {
+  max-height: 200px; /* Ajustez la valeur en fonction de la taille maximale de votre contenu */
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+}
+
+.carousel-slide img {
+  width: 32%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+.container-arrow {
+  position: relative;
+}
+
+.GIF,
+.VR,
+.programation,
+.KF img,
+.NP img,
+.MJP img {
+  transition: 0.5s;
+  &:hover {
+    scale: 1.02;
+  }
+}
