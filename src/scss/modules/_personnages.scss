@@ -1,0 +1,27 @@
+.perso-bleu {
+  width: 700px;
+  position: absolute;
+  padding-left: 160px;
+  transform: translateY(-290px);
+}
+
+.perso-patte {
+  width: 400px;
+  position: absolute;
+  padding-left: 140px;
+  transform: translateY(-160px);
+}
+
+.perso-tigre {
+  width: 250px;
+  position: absolute;
+  margin-top: 150px;
+  transform: translate(900px) rotate(10deg);
+}
+
+.perso-chat {
+  position: absolute;
+  width: 400px;
+  margin-top: 590px;
+  transform: translate(1300px) rotate(15deg);
+}

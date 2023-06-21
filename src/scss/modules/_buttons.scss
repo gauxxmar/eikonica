@@ -1,0 +1,83 @@
+.button-programme {
+  height: 63px;
+  width: 220px;
+  background-color: #4e577b;
+  border-radius: 80px;
+  margin-left: 160px;
+  margin-bottom: 160px;
+  transition: 0.5s;
+  &:hover {
+    scale: 1.05;
+  }
+}
+
+.button-programme a,
+.button-artist a {
+  color: white;
+  font-family: "dazzle-unicase";
+  text-transform: uppercase;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.button-expo {
+  height: 63px;
+  width: 390px;
+  background-color: #ff5257;
+  border-radius: 80px;
+  margin-top: 50px;
+  padding-top: 20px;
+  transition: 0.5s;
+  &:hover {
+    scale: 1.05;
+  }
+}
+
+.button-expo a,
+.button-programme-blanc a,
+.button-réservation a {
+  color: white;
+  font-family: "dazzle-unicase";
+  text-transform: uppercase;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.button-programme-blanc,
+.button-réservation {
+  height: 63px;
+  width: 220px;
+  background-color: #ff5257;
+  border-radius: 80px;
+  padding-top: 20px;
+  margin-top: 80px;
+  transition: 0.5s;
+  &:hover {
+    scale: 1.05;
+  }
+}
+
+.wrap-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrap-button-artist {
+  padding-top: 80px;
+}
+
+.button-artist {
+  height: 63px;
+  width: 350px;
+  background-color: #4e577b;
+  border-radius: 80px;
+  transition: 0.5s;
+  &:hover {
+    scale: 1.05;
+  }
+}

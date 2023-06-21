@@ -1,0 +1,17 @@
+.accordion-header {
+  cursor: pointer;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-item.active .accordion-header {
+  background-color: #ddd;
+}
+
+.accordion-item.active .accordion-content {
+  max-height: 200px;
+}

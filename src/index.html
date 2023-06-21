@@ -5,336 +5,538 @@
     <title>Eikonica</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/gat8ned.css" />
   </head>
   <body>
-    <img src="img/img-fond-test.png" alt="Fribourg" />
-    <a class="logo"><img src="img/eikonica.svg" alt="logo" /></a>
-    <div class="header">
-      <div class="box">
-        <nav class="langues">
-          <a href="#">FR</a>
-          <a href="#">DE</a>
-        </nav>
-      </div>
-      <h1>Festival des Arts Numériques</h1>
-      <p>
-        Le festival d'arts numériques eikonica de Fribourg est l'événement à ne
-        pas manquer pour tous les amateurs de nouvelles technologies, d'art
-        contemporain et les curieux. Du 13 au 15 octobre, venez explorer une
-        grande variété d'oeuvres numériques, allant de l'animation à la réalité
-        virtuelle en passant par les installations interactives. Vous pourrez
-        rencontrer des artistes locaux et internationaux, assister à des
-        conférences passionnantes et participer à des ateliers créatifs. Deux
-        concerts à fri-son permettront de prolonger les festivités.
-      </p>
-      <div class="button-programme">
-        <a href="#">Programme</a>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h2>actualités</h2>
-        </div>
-        <div class="col-6">
-          <img
-            src="img/recto-vrso-2021-festival-art-numerique-conferences-exposition-virtuelle-art-en-ligne-numerique.jpeg"
-            alt=""
-          />
-        </div>
-        <div class="col-6">
-          <h2>Les expositions du moment</h2>
-          <img src="img/fleche-blanche.png" alt="fleche-blanche" />
-          <p>
-            Le vernissage des expositions sera l'occasion pour les participants
-            de découvrir les oeuvres d'art numérique présentées dans le cadre du
-            festival. Les artistes seront présents pour dévoiler leurs travaux
-            et répondre aux questions des visiteurs.
-          </p>
-          <div class="button-expo">
-            <a href="#"> Découvrir les expositions </a>
+    <header>
+      <div class="container-header">
+        <img class="img-fond" src="img/img-fond.png" alt="Fribourg" />
+        <a class="logo"
+          ><img class="logo-img" src="img/eikonica.svg" alt="logo"
+        /></a>
+        <div class="header">
+          <div class="box">
+            <nav class="langues">
+              <a href="#">FR</a>
+              <p>/</p>
+              <a href="#">DE</a>
+            </nav>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <h2>Eikonica, c’est quoi ?</h2>
-          <img src="img/fleche-bleue.png" alt="fleche-bleue" />
-        </div>
-        <div class="col-6">
-          <p>
-            Eikonica c’est Favoriser la découverte et la compréhension de l'art
-            numérique en offrant au grand public l'opportunité de découvrir une
-            grande variété d'oeuvres d'art numériques, allant de l'animation à
-            la réalité virtuelle en passant par les installations interactives
+          <input id="burger" type="checkbox" class="checkbox" />
+          <label for="burger">
+            <div class="wrap-menu">
+              <p class="menu">MENU</p>
+            </div>
+          </label>
+
+          <nav class="navigation">
+            <ul>
+              <div class="box-wrapper">
+                <div class="wrapper-one">
+                  <div class="wrap-burger-infos">
+                    <li><a href="#expositions">Expositions</a></li>
+                    <li><a href="#programme">Programme</a></li>
+                    <li><a href="#artistes">Artistes</a></li>
+                    <li><a href="#infos">Infos pratiques</a></li>
+                    <li><a href="#galerie">Galerie</a></li>
+                    <li><a href="#partenaires">Partenaires</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </nav>
+          <h1>
+            Festival des <br />
+            Arts Numériques
+          </h1>
+          <p class="intro">
+            Le festival d'arts numériques eikonica de Fribourg est l'événement à
+            ne pas manquer pour tous les amateurs de nouvelles technologies,
+            d'art contemporain et les curieux. Du 13 au 15 octobre, venez
+            explorer une grande variété d'oeuvres numériques, allant de
+            l'animation à la réalité virtuelle en passant par les installations
+            interactives. Vous pourrez rencontrer des artistes locaux et
+            internationaux, assister à des conférences passionnantes et
+            participer à des ateliers créatifs. Deux concerts à fri-son
+            permettront de prolonger les festivités.
           </p>
-          <p>
-            Eikonica contribue à offrir de la visibilité pour eikon, pionnière
-            fribourgeoise dans la formation d’Interactive Media Designer, et
-            permet aux apprentis de eikon de présenter des travaux et participer
-            à des conférences et ateliers innovants en lien avec leur métier.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h2>Aperçu du programme</h2>
-          <img src="img/fleche-blanche.png" alt="fleche-blanche" />
-        </div>
-        <div class="col-4">
-          <article class="VR">
-            <a href="#"><img src="img/VR .webp" alt="VR" /></a>
-          </article>
-          <p class="dates">Vendredi 13 octobre</p>
-          <p class="titre-activité">
-            Atelier ‘’initiation à la réalité virtuelle’’
-          </p>
-          <p class="description-activité">
-            Cet atelier permettra aux retraités de découvrir la réalité
-            virtuelle et de s'initier à cette nouvelle technologie.
-          </p>
-          <p class="horraire">11h</p>
-        </div>
-        <div class="col-4">
-          <article class="GIF">
-            <a href="#"><img src="img/GIF.webp" alt="GIF" /></a>
-          </article>
-          <p class="dates">Samedi 14 octobre</p>
-          <p class="titre-activité">Atelier "Création d'un GIF animé"</p>
-          <p class="description-activité">
-            Cet atelier sera animé par un artiste local qui guidera les enfants
-            dans la création de leur propre GIF animé.
-          </p>
-          <p class="horraire">14h</p>
-        </div>
-        <div class="col-4">
-          <article class="programation">
-            <a href="#"><img src="img/programation.webp" alt="code" /></a>
-          </article>
-          <p class="dates">Dimanche 15 octobre</p>
-          <p class="titre-activité">
-            Atelier "Introduction à la programmation"
-          </p>
-          <p class="description-activité">
-            Cet atelier permettra aux enfants de s'initier à la programmation en
-            créant leur propre jeu vidéo.
-          </p>
-          <p class="horraire">16h</p>
-        </div>
-        <div class="col-6">
           <div class="button-programme">
             <a href="#">Programme</a>
           </div>
         </div>
-        <div class="col-6">
-          <div class="button-réservation">
-            <a href="#">Réservation</a>
+      </div>
+    </header>
+    <main>
+      <div class="container-blue">
+        <img class="perso-chat" src="img/perso-chat.png" alt="perso-chat" />
+        <div class="row">
+          <div class="col-12">
+            <p id="expositions" class="titre">
+              Actualités
+              <img
+                class="fleche-blanche"
+                src="img/fleche-blanche.png"
+                alt="fleche-blanche"
+              />
+            </p>
+          </div>
+          <div class="col-6">
+            <img
+              class="taille-image"
+              src="img/recto-vrso-2021-festival-art-numerique-conferences-exposition-virtuelle-art-en-ligne-numerique.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="col-6">
+            <p class="titre-expos">Les expositions du moment</p>
+            <p class="description-expo">
+              Le vernissage des expositions sera l'occasion pour les
+              participants de découvrir les oeuvres d'art numérique présentées
+              dans le cadre du festival. Les artistes seront présents pour
+              dévoiler leurs travaux et répondre aux questions des visiteurs.
+            </p>
+            <div class="button-expo">
+              <a href="#"> Découvrir les expositions </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h2>Aperçu des artistes</h2>
-          <img src="img/fleche-bleue.png" alt="fleche-bleue" />
-        </div>
-        <div class="col-4">
-          <article class="KF">
-            <a href="#" class="artist-name">Kinetic Flow</a>
-            <a href="#"><img src="img/KF.png" alt="Kinetic Flow" /></a>
-          </article>
-        </div>
-        <div class="col-4">
-          <article class="NP">
-            <a href="#" class="artist-name">Neon Pulse</a>
-            <a href="#"><img src="img/NP.png" alt="Neon Pulse" /></a>
-          </article>
-        </div>
-        <div class="col-4">
-          <article class="MJP">
-            <a href="#" class="artist-name">Min Jae-Park</a>
-            <a href="#"><img src="img/MJP.png" alt="Min jae park" /></a>
-          </article>
-        </div>
-        <div class="col-8">
-          <div class="artist-description">
-            <p>
-              Venez découvrir des artiste locaux et internationaux à travers des
-              concerts immersifs et paricipatifs. Les participants pourront
-              profiter d'un spectacle de son et lumière et découvrir la fusion
-              de l'art numérique et de la musique électronique en direct. Les
-              réservations se font sur le site de <a href="#">fri-son.ch.</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <p class="blue">
+              Eikonica, c’est <br />
+              quoi ?
+              <img
+                class="fleche-bleue"
+                src="img/fleche-bleue.png"
+                alt="fleche-bleue"
+              />
+            </p>
+          </div>
+          <div class="col-6">
+            <p class="description-blue">
+              Eikonica c’est Favoriser la découverte et la compréhension de
+              l'art numérique en offrant au grand public l'opportunité de
+              découvrir une grande variété d'oeuvres d'art numériques, allant de
+              l'animation à la réalité virtuelle en passant par les
+              installations interactives
+            </p>
+            <p class="description-blue-2">
+              Eikonica contribue à offrir de la visibilité pour eikon, pionnière
+              fribourgeoise dans la formation d’Interactive Media Designer, et
+              permet aux apprentis de eikon de présenter des travaux et
+              participer à des conférences et ateliers innovants en lien avec
+              leur métier.
             </p>
           </div>
         </div>
-        <div class="col-4">
-          <div class="button-artist">
-            <a href="#"> Découvrir les artistes </a>
+      </div>
+      <div class="background-blue">
+        <img class="perso-bleu" src="img/perso-bleu.png" alt="perso-bleu" />
+        <img class="perso-patte" src="img/patte-perso-bleu.png" alt="patte" />
+        <div class="container container-blue">
+          <div class="row">
+            <div class="col-12">
+              <p id="#programme" class="titre-programme">
+                Aperçu du programme
+                <img
+                  class="fleche-blanche"
+                  src="img/fleche-blanche.png"
+                  alt="fleche-blanche"
+                />
+              </p>
+            </div>
+            <div class="col-4">
+              <article class="VR">
+                <a href="#"><img src="img/VR .webp" alt="VR" /></a>
+              </article>
+              <p class="dates">Vendredi 13 octobre</p>
+              <p class="titre-ateliers">
+                Atelier ‘’initiation à la réalité virtuelle’’
+              </p>
+              <p class="description">
+                Cet atelier permettra aux retraités de découvrir la réalité
+                virtuelle et de s'initier à cette nouvelle technologie.
+              </p>
+              <p class="horraire">11h</p>
+            </div>
+            <div class="col-4">
+              <article class="GIF">
+                <a href="#"><img src="img/GIF.webp" alt="GIF" /></a>
+              </article>
+              <p class="dates">Samedi 14 octobre</p>
+              <p class="titre-ateliers">Atelier "Création d'un GIF animé"</p>
+              <p class="description">
+                Cet atelier sera animé par un artiste local qui guidera les
+                enfants dans la création de leur propre GIF animé.
+              </p>
+              <p class="horraire">14h</p>
+            </div>
+            <div class="col-4">
+              <article class="programation">
+                <a href="#"><img src="img/programation.webp" alt="code" /></a>
+              </article>
+              <p class="dates">Dimanche 15 octobre</p>
+              <p class="titre-ateliers">
+                Atelier "Introduction à la programmation"
+              </p>
+              <p class="description">
+                Cet atelier permettra aux enfants de s'initier à la
+                programmation en créant leur propre jeu vidéo.
+              </p>
+              <p class="horraire">16h</p>
+            </div>
+            <div class="col-6">
+              <div class="wrap-button">
+                <div class="button-programme-blanc">
+                  <a href="#">Programme</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="button-réservation">
+                <a href="#">Réservation</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h2>Infos pratiques</h2>
-          <img src="img/fleche-blanche.png" alt="fleche-blanche" />
-        </div>
-        <div class="col-6">
-          <div class="accordion">
-            <div class="accordion-item">
-              <div class="accordion-header">
-                <hr />
-                <h2>Lieux</h2>
-                <img src="img/fleche-blanche.png" alt="fleche-blanche" />
-              </div>
-              <div class="accordion-content">
-                <p>
-                  Les expositions, conférences et ateliers se déroulent à eikon,
-                  Route Wilhelm Kaiser 13, 1700 Fribourg. Les concerts ont lieu
-                  à fri-son, Rte de la Fonderie 13, 1700 Fribourg.
-                </p>
-              </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p id="artistes" class="blue">
+              Aperçu des artistes
+              <img
+                class="fleche-bleue"
+                src="img/fleche-bleue.png"
+                alt="fleche-bleue"
+              />
+            </p>
+          </div>
+          <div class="col-4">
+            <article class="KF">
+              <a href="#" class="artist-name">Kinetic Flow</a>
+              <a href="#"><img src="img/KF.png" alt="Kinetic Flow" /></a>
+            </article>
+          </div>
+          <div class="col-4">
+            <article class="NP">
+              <a href="#" class="artist-name">Neon Pulse</a>
+              <a href="#"><img src="img/NP.png" alt="Neon Pulse" /></a>
+            </article>
+          </div>
+          <div class="col-4">
+            <article class="MJP">
+              <a href="#" class="artist-name">Min Jae-Park</a>
+              <a href="#"><img src="img/MJP.png" alt="Min jae park" /></a>
+            </article>
+          </div>
+          <div class="col-8">
+            <div class="artist-description">
+              <p class="description-blue">
+                Venez découvrir des artiste locaux et internationaux à travers
+                des concerts immersifs et paricipatifs. Les participants
+                pourront profiter d'un spectacle de son et lumière et découvrir
+                la fusion de l'art numérique et de la musique électronique en
+                direct. Les réservations se font sur le site de
+                <a href="#">fri-son.ch.</a>
+              </p>
             </div>
-            <div class="accordion-item">
-              <div class="accordion-header">
-                <hr />
-                <h2>Prix</h2>
-                <img src="img/fleche-blanche.png" alt="fleche-blanche" />
-              </div>
-              <div class="accordion-content">
-                Toutes les expositions, conférences et ateliers sont gratuits.
-                L’entrée des concerts se monte à 15.- le vendredi et à 25.- le
-                samedi. Réservation des billets sur le site frison.ch.
-              </div>
-            </div>
-            <div class="accordion-item">
-              <div class="accordion-header">
-                <hr />
-                <h2>Réservation</h2>
-                <img src="img/fleche-blanche.png" alt="fleche-blanche" />
-              </div>
-              <div class="accordion-content">
-                <p>
-                  Le nombre de places pour les conférences, ateliers et concerts
-                  étant limité, il est fortement conseillé de réserver une place
-                  au préalable sur le site internet de l’événement.
-                </p>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <div class="accordion-header">
-                <hr />
-                <h2>Transports</h2>
-                <img src="img/fleche-blanche.png" alt="fleche" />
-                <hr />
-              </div>
-              <div class="accordion-content">
-                <p>
-                  Le quartier ne disposant que de peu de places de parc, il est
-                  fortement conseillé de se rendre au festival en transports
-                  publics. Les lignes 1, 3, 7, 8 et 9 (arrêt Charmettes)
-                  desservent l’endroit.
-                </p>
+          </div>
+          <div class="col-4">
+            <div class="wrap-button-artist">
+              <div class="button-artist">
+                <a href="#"> Découvrir les artistes </a>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-6">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2513.296380883343!2d7.178137802775578!3d46.79865159039298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e6ecd8d5a7d2f%3A0xbbe5d1f6b937c32e!2sFribourg!5e0!3m2!1sfr!2sch!4v1686824113979!5m2!1sfr!2sch"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-        <div class="col-12">
-          <h2>Galerie <img src="img/fleche-blanche.png" alt="fleche" /></h2>
-        </div>
-        <div class="col-12">
-          <div class="carousel">
-            <div class="carousel-track">
-              <div class="carousel-slide">
-                <img src="img/galerie-3d.webp" alt="Image 1" />
-                <img src="img/galerie-expo.webp" alt="Image 1" />
-                <img src="img/galerie-lumieres.webp" alt="Image 1" />
-              </div>
-              <div class="carousel-slide">
-                <img src="img/galerie-musee.webp" alt="Image 2" />
-                <img src="img/galerie-ecran.webp" alt="Image 1" />
-                <img src="img/galerie-porte.webp" alt="Image 1" />
-              </div>
-              <div class="carousel-slide">
-                <img src="img/galerie-salon.webp" alt="Image 3" />
-                <img src="img/galerie-camera.webp" alt="Image 1" />
-                <img src="img/galerie-vr.webp" alt="Image 1" />
-              </div>
-            </div>
-          </div>
-          <div class="container-arrow">
-            <button class="carousel-prev">&#8249;</button>
-            <button class="carousel-next">&#8250;</button>
-          </div>
-        </div>
-        <div class="col-3">
-          <img src="img/eikon_full.svg" alt="eikon-full" />
-        </div>
-        <div class="col-3">
-          <img src="img/fri-son.svg" alt="frison" />
-        </div>
-        <div class="col-3">
-          <img src="img/loterie_romande_color.svg" alt="loterie" />
-        </div>
-        <div class="col-3">
-          <img src="img/etat_de_fribourg.svg" alt="etat-fribourg" />
-        </div>
-        <div class="col-12">
-          <h2>Merci à nos partenaires !</h2>
         </div>
       </div>
-    </div>
-    <div class="footer">
-      <div class="row">
-        <div class="col-12">
-          <img src="img/eikonica.svg" alt="logo" />
-        </div>
-        <div class="col-6">
-          <p>copyright (©2023 eikonica. Tous droits reservés)</p>
-        </div>
-        <div class="col-6">
-          <p>suivez-nous !</p>
-        </div>
-        <div class="col-6">
-          <p>mentions legales ©eikon (politique de confidentialité)</p>
-        </div>
-        <div class="col-6">
-          <img src="img/insta.svg" alt="insta" />
-          <img src="img/pngegg (3).png" alt="linkedin" />
-          <img src="img/pngegg (3) copie.png" alt="facebook" />
-        </div>
-        <div class="col-3">
-          <img src="img/eikon_full.svg" alt="eikon-full" />
-        </div>
-        <div class="col-3">
-          <img src="img/fri-son.svg" alt="frison" />
-        </div>
-        <div class="col-3">
-          <img src="img/loterie_romande_color.svg" alt="loterie" />
-        </div>
-        <div class="col-3">
-          <img src="img/etat_de_fribourg.svg" alt="etat-fribourg" />
+      <div class="container-fluid container-blue">
+        <div class="row">
+          <div class="col-12">
+            <p id="infos" class="titre">
+              Infos pratiques
+              <img
+                class="fleche-blanche"
+                src="img/fleche-blanche.png"
+                alt="fleche-blanche"
+              />
+            </p>
+          </div>
+          <div class="col-6">
+            <div class="accordion">
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <hr />
+                  <p class="titre-infos">
+                    Lieux
+                    <img
+                      class="fleche-blanche"
+                      src="img/fleche-blanche.png"
+                      alt="fleche-blanche"
+                    />
+                  </p>
+                </div>
+                <div class="accordion-content">
+                  <p class="informations">
+                    Les expositions, conférences et ateliers se déroulent à
+                    eikon, Route Wilhelm Kaiser 13, 1700 Fribourg. Les concerts
+                    ont lieu à fri-son, Rte de la Fonderie 13, 1700 Fribourg.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <hr />
+                  <p class="titre-infos">
+                    Prix
+                    <img
+                      class="fleche-blanche"
+                      src="img/fleche-blanche.png"
+                      alt="fleche-blanche"
+                    />
+                  </p>
+                </div>
+                <div class="accordion-content">
+                  <p class="informations">
+                    Toutes les expositions, conférences et ateliers sont
+                    gratuits. L’entrée des concerts se monte à 15.- le vendredi
+                    et à 25.- le samedi. Réservation des billets sur le site
+                    frison.ch.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <hr />
+                  <p class="titre-infos">
+                    Réservation
+                    <img
+                      class="fleche-blanche"
+                      src="img/fleche-blanche.png"
+                      alt="fleche-blanche"
+                    />
+                  </p>
+                </div>
+                <div class="accordion-content">
+                  <p class="informations">
+                    Le nombre de places pour les conférences, ateliers et
+                    concerts étant limité, il est fortement conseillé de
+                    réserver une place au préalable sur le site internet de
+                    l’événement.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <hr />
+                  <p class="titre-infos">
+                    Transports
+                    <img
+                      class="fleche-blanche"
+                      src="img/fleche-blanche.png"
+                      alt="fleche"
+                    />
+                  </p>
+                  <hr />
+                </div>
+                <div class="accordion-content">
+                  <p class="informations">
+                    Le quartier ne disposant que de peu de places de parc, il
+                    est fortement conseillé de se rendre au festival en
+                    transports publics. Les lignes 1, 3, 7, 8 et 9 (arrêt
+                    Charmettes) desservent l’endroit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2513.296380883343!2d7.178137802775578!3d46.79865159039298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e6ecd8d5a7d2f%3A0xbbe5d1f6b937c32e!2sFribourg!5e0!3m2!1sfr!2sch!4v1686824113979!5m2!1sfr!2sch"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-12">
+            <p id="galerie" class="titre">
+              Galerie
+              <img
+                class="fleche-blanche"
+                src="img/fleche-blanche.png"
+                alt="fleche"
+              />
+            </p>
+          </div>
+          <div class="col-12">
+            <div class="carousel">
+              <div class="carousel-track">
+                <div class="carousel-slide">
+                  <img src="img/galerie-3d.webp" alt="Image 1" />
+                  <img src="img/galerie-expo.webp" alt="Image 1" />
+                  <img src="img/galerie-lumieres.webp" alt="Image 1" />
+                </div>
+                <div class="carousel-slide">
+                  <img src="img/galerie-musee.webp" alt="Image 2" />
+                  <img src="img/galerie-ecran.webp" alt="Image 1" />
+                  <img src="img/galerie-porte.webp" alt="Image 1" />
+                </div>
+                <div class="carousel-slide">
+                  <img src="img/galerie-salon.webp" alt="Image 3" />
+                  <img src="img/galerie-camera.webp" alt="Image 1" />
+                  <img src="img/galerie-vr.webp" alt="Image 1" />
+                </div>
+              </div>
+            </div>
+            <div class="container-arrow">
+              <button class="carousel-prev">
+                <img
+                  class="curser-carousel-left"
+                  src="img/fleche-blanche.png"
+                  alt=""
+                />
+              </button>
+              <button class="carousel-next">
+                <img
+                  class="curser-carousel-right"
+                  src="img/fleche-blanche.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-
+      <div class="container">
+        <div class="row">
+          <div class="wrap-partenaires">
+            <div class="col-3">
+              <a href="#"
+                ><img
+                  id="partenaires"
+                  class="partenaires"
+                  src="img/eikon_full.svg"
+                  alt="eikon-full"
+              /></a>
+            </div>
+            <div class="col-3">
+              <a href="#"
+                ><img class="partenaires" src="img/fri-son.svg" alt="frison"
+              /></a>
+            </div>
+            <div class="col-3">
+              <a href="#"
+                ><img
+                  class="partenaires"
+                  src="img/loterie_romande_color.svg"
+                  alt="loterie"
+              /></a>
+            </div>
+            <div class="col-3">
+              <a href="#"
+                ><img
+                  class="partenaires"
+                  src="img/etat_de_fribourg.svg"
+                  alt="etat-fribourg"
+              /></a>
+            </div>
+          </div>
+          <div class="col-12">
+            <p class="merci">Merci à nos partenaires !</p>
+          </div>
+        </div>
+        <div class="wrap-retour">
+          <div class="button-retour">
+            <a href="#"
+              ><img class="retour" src="img/fleche-blanche.png" alt="retour"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <img class="perso-tigre" src="img/perso-tigre.png" alt="tigre orange" />
+        <div class="row">
+          <div class="col-12">
+            <img
+              class="logo-img-footer"
+              src="img/eikonica-noir.svg"
+              alt="logo"
+            />
+          </div>
+          <div class="col-6">
+            <p class="texte-footer">
+              copyright (©2023 eikonica. Tous droits reservés)
+            </p>
+          </div>
+          <div class="col-6">
+            <p class="texte-footer-gauche">suivez-nous !</p>
+          </div>
+          <div class="col-6">
+            <a class="texte-footer" href="#"
+              >mentions legales ©eikon (politique de confidentialité)</a
+            >
+          </div>
+          <div class="col-6">
+            <div class="reseaux">
+              <a href="#"
+                ><img class="social" src="img/insta.png" alt="insta"
+              /></a>
+              <a href="#"
+                ><img class="social" src="img/linkedin.png" alt="linkedin"
+              /></a>
+              <a href="#"
+                ><img class="social" src="img/facebook.png" alt="facebook"
+              /></a>
+            </div>
+          </div>
+          <div class="wrap-footer-partenaires">
+            <div class="col-3">
+              <img
+                class="partenaires-footer"
+                src="img/eikon_full.svg"
+                alt="eikon-full"
+              />
+            </div>
+            <div class="col-3">
+              <img
+                class="partenaires-footer"
+                src="img/fri-son.svg"
+                alt="frison"
+              />
+            </div>
+            <div class="col-3">
+              <img
+                class="partenaires-footer"
+                src="img/loterie_romande_color.svg"
+                alt="loterie"
+              />
+            </div>
+            <div class="col-3">
+              <img
+                class="partenaires-footer"
+                src="img/etat_de_fribourg.svg"
+                alt="etat-fribourg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>

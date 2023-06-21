@@ -26,13 +26,11 @@ document.addEventListener("DOMContentLoaded", function () {
   var slideWidth = carouselSlides[0].getBoundingClientRect().width;
   var slideIndex = 0;
 
-  // Déplacer le carousel pour afficher le slide suivant
   function moveToSlide(index) {
     carouselTrack.style.transform = "translateX(-" + slideWidth * index + "px)";
     slideIndex = index;
   }
 
-  // Gestionnaire d'événement pour le bouton précédent
   prevButton.addEventListener("click", function () {
     slideIndex--;
     if (slideIndex < 0) {
@@ -41,7 +39,6 @@ document.addEventListener("DOMContentLoaded", function () {
     moveToSlide(slideIndex);
   });
 
-  // Gestionnaire d'événement pour le bouton suivant
   nextButton.addEventListener("click", function () {
     slideIndex++;
     if (slideIndex >= carouselSlides.length) {

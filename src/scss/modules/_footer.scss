@@ -1,0 +1,52 @@
+.footer {
+  background-color: #4e5774;
+}
+
+.logo-img-footer {
+  width: 30%;
+  padding-top: 140px;
+  padding-left: 140px;
+  padding-bottom: 80px;
+}
+
+.texte-footer {
+  font-family: "Urbanist";
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  margin-left: 140px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.texte-footer-gauche {
+  font-family: "Urbanist";
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 140px;
+}
+
+.reseaux {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 140px;
+}
+
+.social {
+  padding-left: 30px;
+  width: 70px;
+}
+
+.wrap-footer-partenaires {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partenaires-footer {
+  width: 100px;
+  margin: 150px 0 120px 150px;
+}

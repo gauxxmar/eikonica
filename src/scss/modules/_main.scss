@@ -1,64 +1,3 @@
-.accordion-header {
-  cursor: pointer;
-}
-
-.accordion-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
-
-.accordion-item.active .accordion-header {
-  background-color: #ddd;
-}
-
-.accordion-item.active .accordion-content {
-  max-height: 200px; /* Ajustez la valeur en fonction de la taille maximale de votre contenu */
-}
-
-.carousel {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
-.carousel-track {
-  display: flex;
-  transition: transform 0.3s ease;
-}
-
-.carousel-slide {
-  flex: 0 0 100%;
-}
-
-.carousel-slide img {
-  width: 32%;
-  height: 500px;
-  object-fit: cover;
-}
-
-.carousel-prev,
-.carousel-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 24px;
-  border: none;
-  cursor: pointer;
-}
-
-.carousel-prev {
-  left: 10px;
-}
-
-.carousel-next {
-  right: 10px;
-}
-
-.container-arrow {
-  position: relative;
-}
-
 .GIF,
 .VR,
 .programation,
@@ -69,4 +8,211 @@
   &:hover {
     scale: 1.02;
   }
+}
+
+/*font-family: "dazzle-unicase", sans-serif;*/
+
+.container {
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.background-blue {
+  background-color: #4e577b;
+  width: 100%;
+}
+
+.container-blue {
+  background-color: #4e577b;
+  padding-bottom: 130px;
+  width: 100%;
+}
+
+.taille-image {
+  padding-left: 160px;
+}
+
+.titre-expos {
+  font-family: "Urbanist";
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+}
+
+.description-expo {
+  font-family: "Urbanist";
+  font-weight: 500;
+  font-size: 22px;
+  color: white;
+  padding-top: 50px;
+  padding-right: 300px;
+  line-height: 1.5;
+}
+
+.titre {
+  font-family: "Urbanist";
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+  padding-top: 100px;
+  padding-left: 160px;
+  padding-bottom: 20px;
+}
+
+.blue {
+  font-family: "Urbanist";
+  font-weight: 600;
+  font-size: 36px;
+  color: #4e577b;
+  padding-bottom: 20px;
+}
+
+.description-blue {
+  font-family: "Urbanist";
+  font-weight: 500;
+  font-size: 22px;
+  color: #4e577b;
+  margin-right: 50px;
+  padding-top: 70px;
+}
+
+.description-blue-2 {
+  font-family: "Urbanist";
+  font-weight: 500;
+  font-size: 22px;
+  color: #4e577b;
+  padding-top: 40px;
+  margin-right: 50px;
+}
+
+.titre-programme {
+  font-family: "Urbanist";
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.titre-ateliers {
+  font-family: "Urbanist";
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+  margin-top: 15px;
+}
+
+.description {
+  font-family: "Urbanist";
+  font-weight: 500;
+  font-size: 22px;
+  color: white;
+  padding-top: 15px;
+}
+
+.dates {
+  font-family: "Urbanist";
+  font-weight: 600;
+  font-size: 21px;
+  color: white;
+  margin-top: 30px;
+}
+
+.horraire {
+  font-family: "Urbanist";
+  font-weight: 700;
+  font-size: 22px;
+  color: white;
+  margin-top: 30px;
+}
+
+.KF,
+.NP,
+.MJP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artist-name {
+  z-index: 1;
+  position: absolute;
+  color: white;
+  font-family: "dazzle-unicase";
+  text-transform: uppercase;
+  font-size: 36px;
+  display: flex;
+  text-decoration: none;
+}
+
+.description-blue a {
+  color: #ff5257;
+}
+
+.titre-infos {
+  font-family: "Urbanist";
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+  padding-top: 25px;
+  padding-left: 160px;
+  padding-bottom: 20px;
+}
+
+.informations {
+  font-family: "Urbanist";
+  font-weight: 500;
+  font-size: 22px;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 160px;
+}
+
+.fleche-blanche,
+.fleche-bleue {
+  width: 20px;
+  transform: rotate(90deg);
+  margin: 20px;
+}
+
+.partenaires {
+  width: 200px;
+}
+
+.wrap-partenaires {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.merci {
+  display: flex;
+  justify-content: center;
+  font-family: "Urbanist";
+  font-weight: 600;
+  font-size: 36px;
+  color: #4e577b;
+  padding: 40px 0;
+}
+
+.button-retour {
+  width: 100px;
+  height: 100px;
+  background-color: #ff5257;
+  border-radius: 100px;
+  position: fixed;
+  right: 150px;
+  bottom: 155px;
+}
+
+.retour {
+  display: flex;
+  width: 72px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 25px;
 }
