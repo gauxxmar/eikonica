@@ -13,15 +13,16 @@
 }
 
 .perso-tigre {
+  width: 20%;
+  position: absolute;
+  right: 200px;
+  transform: translateY(83px);
+  bottom: 0;
+}
+
+.perso-chat {
   width: 250px;
   position: absolute;
   margin-top: 150px;
   transform: translate(900px) rotate(10deg);
-}
-
-.perso-chat {
-  position: absolute;
-  width: 400px;
-  padding-top: 600px;
-  transform: translate(1200px);
 }
